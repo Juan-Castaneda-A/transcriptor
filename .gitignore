@@ -1,0 +1,27 @@
+# Environment
+.env
+
+# Go
+backend/tmp/
+
+# Python
+worker/__pycache__/
+worker/*.pyc
+worker/venv/
+worker/.venv/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+docker-compose.override.yml
+.env.example
